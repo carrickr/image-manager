@@ -2,5 +2,6 @@
 
 FactoryBot.define do
   factory :attachment do
+    stored_in { Attachment::LOCAL }
   end
 end
