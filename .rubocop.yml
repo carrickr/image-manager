@@ -1,0 +1,14 @@
+AllCops:
+  TargetRubyVersion: 3.1
+  Exclude:
+    - db/schema.rb
+    - db/migrate/*
+    - bin/*
+    - lib/generators/*/templates/*
+    - app/helpers/application_helper.rb
+  ExtraDetails: true
+
+Style/Documentation:
+  Exclude: 
+    - config/application.rb
+    - app/helpers/application_helper.rb
