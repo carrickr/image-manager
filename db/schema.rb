@@ -18,6 +18,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_05_30_014724) do
     t.datetime "upload_at"
     t.datetime "processed_at"
     t.string "md5_checksum"
+    t.integer "stored_in"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

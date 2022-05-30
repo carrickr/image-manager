@@ -8,7 +8,8 @@ class CreateAttachments < ActiveRecord::Migration[7.0]
       t.datetime :upload_at
       t.datetime :processed_at
       t.string :md5_checksum
-      
+      t.column :stored_in, :integer
+
       t.timestamps
     end
   end
